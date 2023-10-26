@@ -314,7 +314,7 @@ a {
   border-radius: 0.1rem;
   padding: 1rem;
   margin: 1rem;
-  box-shadow: 0 0 0.11rem var(--lighter-grey-bg);
+  box-shadow: 0 0 0.11rem var(--light-grey-bg);
 }
 
 .category_icon {
@@ -350,7 +350,7 @@ a {
 #transactions_list,
 #categories_list {
   background-color: var(--white-text);
-  box-shadow: 0 0 0.13rem var(--lighter-grey-bg);
+  box-shadow: 0 0 0.13rem var(--light-grey-bg);
   margin: 1rem;
 }
 
@@ -370,11 +370,29 @@ a {
 
 #icon-select,
 #icon-select option {
-  background-color: var(--lighter-grey-bg);
+  background-color: var(--light-grey-bg);
   color: var(--white-text);
   font-family: 'Material Icons Outlined', Arial, Helvetica, sans-serif;
   font-size: 2rem !important;
   padding: 1rem;
   border-radius: 0.2rem;
   border: 0;
+}
+
+#new-session .form-inputs .material-text-field {
+  margin: 10px 0;
+}
+
+#new-session .form-inputs .material-text-field input.input-field {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #3f51b5;
+  border-radius: 4px;
+  background: transparent;
+  color: #3f51b5;
+  transition: border-color 0.3s;
+}
+
+#new-session .form-inputs .material-text-field input.input-field:focus {
+  border: 2px solid #2196F3;
 }
