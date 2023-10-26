@@ -25,7 +25,7 @@ class CategoriesController < ApplicationController
   end
 
   def set_icons
-    @icons = %w[attach_money shopping_cart restaurant
+    @icons = %w[icecream ramen_dining attach_money liquor shopping_cart restaurant
                 directions_bus sports_esports home_repair_service
                 favorite school move_to_inbox]
   end
