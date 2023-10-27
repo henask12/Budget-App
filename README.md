@@ -75,6 +75,7 @@ The project is developed utilizing the following technologies:
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
+- [Video Demo Link](https://www.loom.com/share/fb8ed8ecd9454a2593045574753e3ea0?sid=9e532c58-d4f2-42f0-b68d-68f70005d615)
 - [Live Demo Link](https://budgetapp-3unj.onrender.com)
 
 
