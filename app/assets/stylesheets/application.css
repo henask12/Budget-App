@@ -33,13 +33,18 @@
   --black-text: #000;
   --warning-bg: #ff5b5b;
   --top-right-gradient:
-    linear-gradient(to top right,
-      var(--primary-bg),
-      var(--primary-darker-bg));
+    linear-gradient(
+    to top right,
+    var(--primary-bg),
+    var(--primary-darker-bg)
+    );
+
   --top-bottom-gradient:
-    linear-gradient(to bottom,
-      var(--primary-bg),
-      var(--primary-dark-bg));
+    linear-gradient(
+    to bottom,
+    var(--primary-bg),
+    var(--primary-dark-bg)
+    );
 
   /* Simple Reset */
   margin: 0;
@@ -396,5 +401,5 @@ a {
 }
 
 #new-session .form-inputs .material-text-field input.input-field:focus {
-  border: 2px solid #2196F3;
+  border: 2px solid #2196f3;
 }
