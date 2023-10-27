@@ -34,16 +34,15 @@
   --warning-bg: #ff5b5b;
   --top-right-gradient:
     linear-gradient(
-    to top right,
-    var(--primary-bg),
-    var(--primary-darker-bg)
+      to top right,
+      var(--primary-bg),
+      var(--primary-darker-bg)
     );
-
   --top-bottom-gradient:
     linear-gradient(
-    to bottom,
-    var(--primary-bg),
-    var(--primary-dark-bg)
+      to bottom,
+      var(--primary-bg),
+      var(--primary-dark-bg)
     );
 
   /* Simple Reset */
