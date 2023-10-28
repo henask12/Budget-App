@@ -1,7 +1,6 @@
 <a name="readme-top"></a>
 
 <div align="center">
-<img src="./app/assets/images/logo_white.png" width="170px">
   <h1><b>BUDGETMATE  | ROR Capstone Project</b></h1>
 </div>
 
@@ -121,7 +120,7 @@ Then open `http://127.0.0.1:3000/` in your browser.
 ### Test
 To run the tests try the following command:
 ```
-rspec spec
+bundle exec rspec 
 ```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
